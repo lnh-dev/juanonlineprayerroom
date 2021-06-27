@@ -1,0 +1,716 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180759630-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-180759630-1');
+		</script>
+
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="description" content="한국교회를 위한 온라인기도실">
+		<meta name="author" content="온라인기도실">
+		<meta name="generator" content="온라인 기도실">
+		<meta property="og:url" content="https://lnh-dev.github.io/juanonlineprayerroom" /> 
+		<meta property="og:type" content="website" /> 
+		<meta property="og:image" content="https://lnh-dev.github.io/juanonlineprayerroom/onlinePrayerRoom.jpg" />
+		<meta property="og:title" content="온라인 기도실" />  
+		<meta property="og:description" content="어디에나 계신 주님과 지금 여기에" />
+		
+		<!-- CSS only -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		
+		<!-- JS, Popper.js, and jQuery -->
+		
+		<script
+		src="https://code.jquery.com/jquery-3.5.1.min.js"
+		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+		crossorigin="anonymous"></script>
+		
+		
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+		
+		<title>주안교회 온라인 기도실</title> <!--from 20.09.18~-->
+	</head>
+	<body>
+		<style>		
+
+			.maincard {
+			display:none; 
+			}
+			.  {
+			visibility:hidden;
+			}
+			h6 {
+			color:#ffffff;
+			
+			}
+			.allpage {
+			display:none;
+			}
+			
+			body {
+			background-image: url("./church.jpg");
+			}
+			html,body {
+			height: 100%;
+			}
+			
+			BODY {
+			min-height: 100%;
+			background-color: #000;
+			
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			}
+			
+			h2,h3, h4, h5,li {
+			color:#fff;
+			}
+			hr {
+			background-color: #aaa;
+			height: 2px; 
+			} 
+			
+			hr.sm {
+			background-color: #aaa;
+			height: 1px; 
+			} 
+			
+			li {
+			font-size:18px;
+			
+			}
+			btn_next {
+			font-weight:bold;
+			
+			}
+			
+			.oneline::placeholder {
+			color: #99f3bd;
+			
+			} 
+			
+			.oneline {
+			
+			font-size: 24px;
+			color: #99f3bd;
+			weight:bold;
+			border: none; 
+			background: transparent;
+			width:100%;
+			
+			}
+			.oneline:focus {
+			font-size: 24px;
+			color: #99f3bd;
+			weight:bold;
+			border: none; 
+			background: transparent;
+			outline:none;
+			
+			}
+			
+			input[type="number"]::-webkit-outer-spin-button,
+			input[type="number"]::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+			}
+			.colyel{
+			color: #f5c842;
+			}
+			
+			/*============*/
+			.hoverbtn1 {
+		   	background-color: #07689f; 
+		    	color: black; 
+		    	border: 2px solid #07689f;
+			}
+
+			.hoverbtn:hover {
+		    	background-color: #40a8c4;
+		    	color: white;
+		    	border-color:#40a8c4;
+			}
+			/*============*/
+		</style>
+		
+		
+		<div class="container-sm  justify-content-center  h-100">   
+			<div class="row d-flex justify-content-center align-items-center " id='main_fr'>
+				<audio  id='aup' src="./210627_YT.mp3" style='display:none' type="audio/mp3"></audio> 
+				<!-- 월별로 바꾸기 -->
+                <div   id='c1' class='maincard' data-bg="./210627_onlinePrayRoom.jpg">
+                	<h2 class="text-center tit_font"> 온라인 기도실 안내</h2>
+                    <h5 class="text-center">2021년 06월27일(일)~07월 03일(토)</h5>
+					<hr>
+					<ul>	
+						<li> 온라인 기도실은 온 회중이 함께 주님 앞으로 나아가는 자리입니다</li>
+						<li> 30분 정도 여유를 가지고 하시기 바랍니다</li>
+						<li> 말씀과 묵상, 찬양과 기도로 나아갑니다</li>
+						<li> 배경 음악이 나올 수 있습니다 볼륨을 조절해주세요</li>
+					</ul>
+					<hr>
+					<div>
+						<h6 class="text-right">
+							준비가 되셨으면 아래의 버튼을 눌러주세요
+						</h6>
+						<br/>
+						<br/>
+						<button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right " name="button" id='btn_1'>기도의 자리로</button>
+					</div>
+				</div>
+				
+				<div  id='c2' class='maincard' data-bg="./210627_withJesus.jpg">
+					<h2><b class='colyel'>할렐루야</b><br/><sub> 내 영혼아 여호와를 찬양하라</sub></h2>
+                    <h6 class="text-right" style="font-size:14px; color:aliceblue;" >시 146:1</h6>                
+					<hr>
+					<div>
+						<ul>
+							<li>가사를 묵상하며 읽습니다 </li>
+						</ul>
+						<hr>
+						<h5>
+							두려워 말라<br>
+							내가 너를 구속하였고<br> 
+							너를 지명하여 불렀나니<br>
+							너는 내것이라<br><br>
+
+							네가 물 가운데로 지날 때<br> 
+							내가 함께 하리라<br> 
+							네가 불 가운데로 행할 때<br> 
+							너를 보호하리니<br><br>
+						</h5>
+                        <button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right" name="button" id='btn_2'>찬양하기</button>
+						<button type="submit" style="margin:8px" class="btn btn-warning btn_prev float-right" name="button" id='btn_2'>이전으로</button>
+					</div>	
+				</div>
+
+				<div  id='c3' class='maincard' data-bg="./210627_withJesus.jpg">
+					<h2><b class='colyel'>할렐루야</b><br/><sub> 내 영혼아 여호와를 찬양하라</sub></h2>
+                    <h6 class="text-right" style="font-size:14px; color:aliceblue;" >시 146:1</h6>                
+					<hr>
+					<div>
+						<ul>
+							<li>가사를 묵상하며 읽습니다 </li>
+						</ul>
+						<hr>
+						<h5>
+							두려워 말라<br> 
+							내가 너를 구속하였고<br> 
+							너를 지명하여 불렀나니<br> 
+							너는 내것이라<br><br>
+						</h5>
+                        <button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right" name="button" id='btn_3'>찬양하기</button>
+						<button type="submit" style="margin:8px" class="btn btn-warning btn_prev float-right" name="button" id='btn_3'>이전으로</button>
+					</div>	
+				</div>
+
+				<div  id='c4' class='maincard' data-bg="./210627_withJesus.jpg">
+					<h2><b class='colyel'>할렐루야</b><br/><sub> 내 영혼아 여호와를 찬양하라</sub></h2>
+                    <h6 class="text-right" style="font-size:14px; color:aliceblue;" >시 146:1</h6>                
+					<hr>
+					<div>
+						<iframe id='if1' width="100%" height='auto' src="https://www.youtube.com/embed/5IbzIeCfAEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h6 class="text-right">너는 내 것이라 by 박종호 </h6> 
+                        
+						<hr>
+						<h6 class="text-right"> 위의 찬양이 끝나면 말씀읽기를 눌러주시면 됩니다</h6>
+						<br/>
+                        <br/>
+                        <button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right" name="button" id='btn_4' data-kill='#if1' onclick='aup.play();'>말씀읽기</button>
+						<button type="submit" style="margin:8px" class="btn btn-warning btn_prev float-right" name="button" id='btn_4'>이전으로</button>
+					</div>
+				</div>
+
+				<div   id='c5' class='maincard' data-bg="./210627_road.jpg">
+					<h4>주의 말씀은 내 발에 등이요<br/> 내 길에 빛이니이다&nbsp;&nbsp;<b class="text-right" style="font-size:14px; color:aliceblue;" >(시119:105)</b></h4>
+					<hr>
+					<ul>
+					<li><h6>오늘의 말씀입니다<h6></li>
+					<li><h6>음악 소리가 크면 조절하시기 바랍니다</h6></li>
+					</ul>
+					<!-- <h6 class="text-right" style="font-size:4px; color:aliceblue;" >너 예수께 조용히 나가</h6>
+					<h6 class="text-right" style="font-size:4px; color:aliceblue;" >피아노 연주 by 황은혜</h6> -->
+
+					<div style="text-align: center;">
+						<img src="./210627.jpg"  alt="Responsive image" width="280" height="370">
+					</div>
+					<button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right text-right" name="button" id='btn_5'>묵상하기</button>
+				</div>
+
+				<div  id='c6' class='maincard' data-bg="./210627_road.jpg">
+                    <!-- from here -->
+                    <h3><b class='colyel'>마음</b><sub>의 묵상</sub></h3>
+                    <h6 class="text-right" style="font-size:14px; color:aliceblue;" >요 14:6</h6>                
+					<hr>	
+					<h5><b class='colyel'>“예수께서 이르시되 내가 곧 길이요 진리요 생명이니 나로 말미암지 않고는 아버지께로 올 자가 없느니라”</b></h5><br/>
+					<h5>1. 예수님은 자신을 어떻게 정의하고 계신가요?</h5>
+					<h5>2. 하나님께로 가려면 누구를 통해야 하나요?</h5>
+					<h5>3. 길, 진리, 생명이라는 단어들을 묵상해보세요</h5>
+					<hr> 
+					<h6 class="text-right">길, 진리, 생명이신 주님을<br> 한 순간도 잊지 않게 하소서</h6>
+					<!-- to here -->
+					<div>
+						<br/>
+                        <br/>
+                        <button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right" name="button" id='btn_6'>기도하기</button>
+                        <button type="submit" style="margin:8px" class="btn btn-warning btn_prev float-right" name="button" id='btn_6'>이전으로</button>
+					</div>	
+				</div>
+					
+				<div   id='c7' class='maincard' data-bg='./210627_love.jpg'>
+					<h3><b class='colyel'>회개</b>, <sub>삶의 방향을 바꾸는 결정</sub></h3>
+					<hr>	
+                    <ul>
+						<li><h6>사랑은 용서를 낳습니다</h6></li>
+					</ul>
+					<hr>
+					<br/>
+                    <h5 class="text-center">“예수의 뒤로 그 발 곁에 서서 울며<br> 눈물로 그 발을 적시고<br> 자기 머리털로 닦고<br> 그 발에 입맞추고 향유를 부으니”</h5>
+                    <h6 class="text-center"> - 누가복음 7:38 - </h6>
+                    <br/>
+                    <!-- <h6 class="text-right" style="font-size:14px; color:aliceblue;" >(마3:8) </h6>                 -->
+                    <h6 class="text-center"><b class='colyel'>3분 정도 회개</b>하며 주님 앞에 나아갑니다</h6>
+                    <br/>
+                    <br/>
+                    <button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right  " name="button" id='btn_7'>다음기도</button>
+                    <button type="submit" style="margin:8px" class="btn btn-warning btn_prev float-right" name="button" id='btn_7'>이전으로</button>				
+				</div>
+
+				<div  id='c8' class='maincard' data-bg='./210627_wisdom.jpg'>
+					<h3>사슴이 시냇물을 찾기에 갈급함 같이</h3>
+					<h6 class="text-right" style="font-size:14px; color:aliceblue;" >시42:1</h6>
+					<hr>
+					<ul>
+						<li>다음의 말씀을 소리 내어 읽습니다</li>	
+					</ul>
+					<hr>
+					<h5 class="text-left">
+						[마태복음 6:17-21]<br/><br/>
+						17 너는 금식할 때에 머리에 기름을 바르고 얼굴을 씻으라<br><br>
+						18 이는 금식하는 자로 사람에게 보이지 않고 오직 은밀한 중에 계신 네 아버지께 보이게 하려 함이라 은밀한 중에 보시는 네 아버지께서 갚으시리라<br><br>
+						19 너희를 위하여 보물을 땅에 쌓아 두지 말라 거기는 좀과 동록이 해하며 도둑이 구멍을 뚫고 도둑질하느니라<br><br>
+					</h5>
+					<button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right  " name="button" id='btn_8'>다음기도</button>
+					<button type="submit" style="margin:8px" class="btn btn-warning btn_prev float-right" name="button" id='btn_8'>이전으로</button>
+				</div>
+
+				<div  id='c9' class='maincard' data-bg='./210627_wisdom.jpg'>
+					<h3>사슴이 시냇물을 찾기에 갈급함 같이</h3>
+					<h6 class="text-right" style="font-size:14px; color:aliceblue;" >시42:1</h6>
+					<hr>
+					<ul>
+						<li>다음의 말씀을 소리 내어 읽습니다</li>	
+					</ul>
+					<hr>
+					<h5 class="text-left">
+						[마태복음 6:17-21]<br/><br/>
+						21 오직 너희를 위하여 보물을 하늘에 쌓아 두라 거기는 좀이나 동록이 해하지 못하며 도둑이 구멍을 뚫지도 못하고 도둑질도 못하느니라<br><br>
+						22 네 보물 있는 그 곳에는 네 마음도 있느니라<br><br>
+					</h5>
+					<button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right  " name="button" id='btn_9'>다음기도</button>
+					<button type="submit" style="margin:8px" class="btn btn-warning btn_prev float-right" name="button" id='btn_9'>이전으로</button>
+				</div>
+	
+
+
+				<div  id='c10' class='maincard' data-bg='./210627_faith.jpg'>
+					<h2><b class='colyel'>하나님</b><sub> 나라</sub></h2>
+					<hr>
+					<br/>
+					<h5>1. 하나님의 나라가 <b class='colyel'>속히 이 땅에 임하게 하소서</b> </h5> <br/>
+					<div>
+						<h5>
+							하나님 아버지,<br/>
+							인도발 델타 변이 바이러스가 확산되고 있사오니 속히 코로나 백신과 치료제가 모든 나라와 민족들에게 공급되어 코로나19가 종식되게 하소서. 
+							이를 위하여 전 세계 모든 교회가 기도를 쉬지 않게 하시고, 코로나19로도 막을 수 없는 선교의 열정을 갖게 하셔서, 여전히 남아 있는 미전도 
+							종족들에게 복음이 전해지게 하소서.<br><br>
+						</h5>
+						<h6 class="text-center"><b class='colyel'>간절한 마음</b>으로 <b class='colyel'>3분 정도 기도</b>합시다</h6>
+                        
+                        <br/>
+                        <br/>
+						<button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right  " name="button" id='btn_10'>다음기도</button>
+						<button type="submit" style="margin:8px" class="btn btn-warning btn_prev float-right" name="button" id='btn_10'>이전으로</button>
+                    </div>
+				</div>
+				
+				
+				<div   id='c11' class='maincard' data-bg='./210627_prayForNorthKr.jpg'>
+					<h2><b class='colyel'>남</b><sub>과</sub> <b class='colyel'>북</b></h2>
+					<hr>
+					<br/>
+					<h5>2. 남북한이 속히 <b class='colyel'>복음</b>으로 <b class='colyel'>통일</b>되게 하소서 </h5> <br/>
+					<div>
+						<h5>
+							하나님 아버지,<br/>
+							북한의 문이 활짝 열려 극심한 경제난으로 고통받고 있는 북한 주민들에게 필요한 양식과 의약품과 생필품이 전달되게 하소서. 
+							북한 내부에서부터 새로운 변화가 일어나, 북한 땅이 자유와 평강이 가득한 샬롬의 땅이 되게 강하게 역사 하소서.<br><br>
+						</h5>
+						<h6 class="text-center"><b class='colyel'>간절한 마음</b>으로 <b class='colyel'>3분 정도 기도</b>합시다</h6>
+
+                        <br/>
+                        <br/>
+						<button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right  " name="button" id='btn_11'>다음기도</button>
+						<button type="submit" style="margin:8px" class="btn btn-warning btn_prev float-right" name="button" id='btn_11'>이전으로</button>
+					</div>
+				</div>
+
+				<div  id='c12' class='maincard' data-bg='./210627_prayForKr.jpg'>
+					<h2><b class='colyel'>대한민국</b></h2>
+					<hr>
+					<h5>3. 우리나라가 <b class='colyel'>하나님을 경외하는 나라</b>가 되게 하소서 </h5> <br/>
+					<div>
+						<h5>
+							하나님 아버지,<br/>
+							우리나라 안에 하나님을 경외하는 하나님의 사람들이 각계 각층에 세워지게 하소서. 이들을 통하여 낙심과 절망에 빠진 국민들에게 위로와 도움이 
+							되는 올바르고 공정한 선한 정책들과 도움의 손길들이 많이 일어나게 하소서.<br/><br/>    
+						</h5>
+
+						<h6 class="text-center"><b class='colyel'>간절한 마음</b>으로 <b class='colyel'>3분 정도 기도</b>합시다</h6>
+                        <br/>
+                        <br/>
+						<button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right" name="button" id='btn_12'>다음기도</button>
+						<button type="submit" style="margin:8px" class="btn btn-warning btn_prev float-right" name="button" id='btn_12'>이전으로</button>
+                    </div>
+				</div>
+						
+				<div   id='c13' class='maincard' data-bg='./210627_hope.jpg'>
+					<h2><b class='colyel'>한국교회</b></h2>
+					<hr>
+					<h5>4. 한국교회가 <b class='colyel'>성령으로 새롭게 부흥</b>되게 하소서 </h5> <br/>
+					<div>
+						<h5>
+							하나님 아버지,<br/>
+							한국 교회가 경건의 모양만 가지고 있는 것이 아니라, 경건의 능력을 발휘하는 교회가 되게 하소서. 한국 교회 안에 믿음의 역사와 사랑의 수고와 소망의 인내가 일어나게 하시고, 
+							그로 말미암아 복음의 열매를 30배, 60배, 100배 거두는 선교적 교회가 되게 하소서.<br/><br/> 
+						</h5>
+						<h6 class="text-center"><b class='colyel'>간절한 마음</b>으로 <b class='colyel'>3분 정도 기도</b>합시다</h6>
+                        <br/>
+                        <br/>
+                        <button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right" name="button" id='btn_13'>다음기도</button>
+						<button type="submit" style="margin:8px" class="btn btn-warning btn_prev float-right" name="button" id='btn_13'>이전으로</button>
+					</div>	
+				</div>
+				
+				<div  id='c14' class='maincard' data-bg='./210418_juanChurch.jpg'>
+					<h2><b class='colyel'>주안교회</b></h2>
+					<hr>
+					<h5>5. 주안교회가 <b class='colyel'>다음 세대를 세우는 선교적 교회</b>가 되게 하소서 </h5> <br/>
+					<div>
+						<h5>
+							하나님 아버지,<br/>
+							주안의 다음세대들을 위해서 시작되는 리모델링 공사가 하나님의 인도하심 가운데 안전하게 완공되게 하소서. 주안의 다음세대들을 위해서 부모와 성도들이 한 마음이 되어 더욱 더 간절하게 기도하게 하소서. 
+							그리하여 주안의 다음세대들이 하나님께 쓰임받는 영성과 인성, 실력과 겸손을 갖춘 믿음의 용사들로 자라나게 하소서.<br/><br/>        
+						</h5>
+						<h6 class="text-center"><b class='colyel'>간절한 마음</b>으로 <b class='colyel'>3분 정도 기도</b>합시다</h6>
+                        <br/>
+                        <br/>
+                        <button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right" name="button" id='btn_14'>다음기도</button>
+						<button type="submit" style="margin:8px" class="btn btn-warning btn_prev float-right" name="button" id='btn_14'>이전으로</button>
+					</div>									
+				</div>
+
+				<div  id='c15' class='maincard' data-bg="./210627_thanks.jpg">
+					<h2><b class='colyel'>감사</b><sub>의 기도</sub></h2>
+					<hr>
+					<ul>
+						<li>오늘 기도를 인도하신 주님께 감사를 올려드립니다</li>
+						<li>아래의 구절을 읽고 주님께 감사의 마음을 올려드립시다</li>
+					</ul>
+                    <hr>
+					<br/>
+					<div>
+						<h5 class="text-center">“예수께서 여자에게 이르시되<br> 네 믿음이 너를 구원하였으니<br> 평안히 가라 하시니라”</h5>
+						<h6 class="text-center"> - 누가복음 7장 50절 - </h6>
+
+                        <br/>
+						<h6 class="text-center">고요한 가운데 잠시 침묵하시기 바랍니다</h6>
+						<br/>
+                        <br/>
+                        <button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right" name="button" id='btn_15'>다음기도</button>
+						<button type="submit" style="margin:8px" class="btn btn-warning btn_prev float-right" name="button" id='btn_15'>이전으로</button>
+					</div>
+				</div>
+				
+				<div  id='c16' class='maincard' data-bg="./210627_forward.jpg">
+					<h2><b class='colyel'>파송</b>,  <sub>세상을 향하여</sub></h2>
+					<hr>
+					<ul>
+						<li>오늘의 온라인 기도를 마쳤습니다</li>
+					</ul>
+                    <hr>
+                    <br/>
+					<div>
+						<h5><b class='colyel'>기도를 들으신 주님께서 평안히 가라 하십니다</b><br/><br/>
+							<b class='colyel'>주님께서 우리와 함께 하시니 두려울 것이 없습니다</b>
+						</h5>
+						<br/>
+                        <br/>
+                        <button type="submit" style="margin:8px" class="btn btn-warning btn_next float-right" name="button" id='btn_16'>아멘</button>
+						<button type="submit" style="margin:8px" class="btn btn-warning btn_prev float-right" name="button" id='btn_16'>이전으로</button>
+					</div>
+				</div>
+				
+				<div  id='c17' class='maincard' data-bg="./210627_dawn.jpg">
+					<h2><b class='colyel'>새벽</b><sub>을 깨우며</sub></h2>
+					<hr>
+					<ul>
+						<li>새벽기도회 안내입니다</li>
+					</ul>
+					<hr>
+					<br/>
+					<div>
+						<h5><b class='colyel'>매일 새벽기도회가 아침 6시에 본당에서 진행되고 있습니다</b><br/><br/>
+							<b class='colyel'>성도님들은 부평성전이나 주안성전에 오셔서 참석하시거나 각 가정에서 인터넷으로 실시간 참여하실 수 있습니다</b>
+						</h5>
+					
+					</div><br/>
+					<br/>
+					<div>
+						<button type="submit" style="margin:8px;" class="btn btn-warning btn_next float-right " name="button"  onclick="location.href='http://m.juan.or.kr/'"> 온라인 방송국 입장하기</button>
+                        <button type="submit" style="margin:8px" class="btn btn-warning btn_prev float-right" name="button" id='btn_17'>이전으로</button>
+					</div>
+				</div>
+	
+			</div>
+			
+		</div> <!-- END OF ROW -->
+	</div>
+	
+	<script>
+		
+		var nowobj={};
+		var kill_media="";
+		var start_card='c1';
+		var nowobj2=1;
+		var delaytime=2;
+		
+		
+		var oldVal="";
+		var imsiimg="";
+		var nowtime=Date.now();
+		
+		var bg_bright=50;
+		
+		var  _intval=1500;
+		
+		var check_result="|";
+		var bricknumber=1;
+		function isMobile() {
+			return navigator.userAgent.indexOf('Mobi')> -1;
+		}
+		
+		
+		function getParameterByName(name) {
+			name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+			var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+			results = regex.exec(location.search);
+			return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
+		
+		
+		$(document).ready(function(){
+			
+			var churchname = getParameterByName('church');
+			
+			$('.churchname').text(churchname);
+			aup.loop=true;
+			aup.volume=0.35;
+			
+			$('body').css("backdrop-filter","brightness("+bg_bright+"%)");
+			
+			if($('#'+start_card).data('bg')!==undefined) chage_background_img($('#'+start_card).data('bg')) ;
+			$('#'+start_card).show('slow'); 
+			
+			if(!isMobile()) {
+				
+				$('#main_fr').addClass('h-100');
+				
+				} else {
+				
+				$('#main_fr').removeClass('align-items-center ');
+				$('#main_fr').css('padding-top','30px')
+			}
+			if(navigator.userAgent.indexOf('KAKAO')>0) {
+				$('#btn_end').prop('href',"kakaoweb://closeBrowser");
+				} else {
+				$('#btn_end').detach();
+				
+				
+			}
+			
+			
+			$("#btn_end").click(function(){
+				self.opener=self;
+				self.close();
+				window.close();
+				window.open('','_self').close();  
+				
+				$(".maincard:last-child").fadeOut('slow',function() { 
+					document.getElementById('aup').volume=0
+					self.opener=self;
+					self.close();
+					window.close();
+					window.open('','_self').close();  
+					
+					if(navigator.userAgent.includes("KAKAO")) location.href = "kakaotalk://inappbrowser/close";
+					
+					
+				});
+			});
+			
+			
+			$(".btn_next").click(function(){
+				//show_nav_pagenum();
+				
+				
+				nowobj=$("#c"+($(this).prop('id').split("_")[1]-0+1));
+				nowobj2=$(this).prop('id').split("_")[1]-0+1;
+				
+				kill_media=$(this).data('kill');
+				
+				
+				
+				$("#c"+$(this).prop('id').split("_")[1]).fadeOut('slow',function() { 
+					
+					if(kill_media!==undefined) $(kill_media).detach();
+					
+					
+					
+					if($('.maincard').eq(nowobj2-1).data('bg')!==undefined) {  // 배경화면이 카드에 있으면 바꾼다.
+						chage_background_img($('.maincard').eq(nowobj2-1).data('bg')) ;
+						
+					}
+					
+					
+					if(nowobj2==2&&!isMobile()) openFullScreenMode();
+					
+					
+					
+					nowobj.fadeIn('slow',function() {
+						
+						if($('#if1').width()>0) $('#if1').height($('#if1').width()/16*9);
+						/*
+							nowobj.find(". ").each(function (index) {
+							
+							if((nowobj2-0)==$(".maincard").length) last_fadeout()
+							
+							
+							});
+						*/
+					});
+					
+					
+					
+				});
+				
+				
+			});
+			
+			$(".btn_prev").click(function(){
+				//show_nav_pagenum();
+				
+				//nowobj==> S.fn.init [div#c4.maincard]
+				//nowobj2==>4
+				//kill_media ==> #if1 
+				nowobj=$("#c"+($(this).prop('id').split("_")[1]-0-1));
+				nowobj2=$(this).prop('id').split("_")[1]-0-1;
+				
+				kill_media=$(this).data('kill');
+				
+				
+				
+				$("#c"+$(this).prop('id').split("_")[1]).fadeOut('slow',function() { 
+					
+					if(kill_media!==undefined) $(kill_media).detach();
+					
+					
+					if($('.maincard').eq(nowobj2).data('bg')!==undefined) {  // 배경화면이 카드에 있으면 바꾼다.
+						chage_background_img($('.maincard').eq(nowobj2-1).data('bg')) ;
+						
+					}
+					
+					
+					if(nowobj2==2&&!isMobile()) openFullScreenMode();
+					
+					
+					
+					nowobj.fadeIn('slow',function() {
+						
+						if($('#if1').width()>0) $('#if1').height($('#if1').width()/16*9);
+						/*
+							nowobj.find(". ").each(function (index) {
+							
+							if((nowobj2-0)==$(".maincard").length) last_fadeout()
+							
+							
+							});
+						*/
+					});
+					
+					
+					
+				});
+				
+				
+			});
+			
+			
+			function chage_background_img(img_name) {
+				
+				$('body').css('background-image',"url('"+img_name+"'");
+				
+				
+				console.log(img_name);
+				
+				
+				
+			}
+			
+			function openFullScreenMode() {
+				var docV = document.documentElement;
+				if (docV.requestFullscreen) 
+				docV.requestFullscreen();
+				else if (docV.webkitRequestFullscreen) // Chrome, Safari (webkit)
+				docV.webkitRequestFullscreen();
+				else if (docV.mozRequestFullScreen) // Firefox
+				docV.mozRequestFullScreen();
+				else if (docV.msRequestFullscreen) // IE or Edge
+				docV.msRequestFullscreen();
+			}
+			
+			
+			
+			function last_fadeout() {
+				delaytime=3;
+				
+				setTimeout("$('body').css('backdrop-filter','brightness(0.4)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.35)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.3)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.25)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.20)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.15)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0.1)')",delaytime++*1000);
+				setTimeout("$('body').css('backdrop-filter','brightness(0)')",delaytime++*1000);
+				
+				
+				setTimeout("aup.pause();"(delaytime+3)*1000);
+				
+				aup.loop=false;
+				
+			}
+		});
+	</script>
+	
+</body>
+</html>
